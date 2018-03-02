@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Psychic Game - Guess the Computer-selected Letter!</title>
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</head>
+
+<body>
+
+<div id="gameBody">
+  <h1>The Psychic Game</h1>
+  <h2>You'll never guess what letter I chose!</h2>
+  <p>Wins: <span id="wins"></span></p>
+  <p>Losses: <span id="losses"></span></p>
+  <p>Guesses Left: <span id="guessDownCounter"></span></p>
+  <p>Your Guesses So Far: <span id="guessArray"></span></p>
+</div>
+
+<button id="start" onclick=newGame()>Start</button>
+<button id="reset" disabled onclick=reset()>Reset</button>
+
+</body>
+</html>
